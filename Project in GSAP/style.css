@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: 'Monument';
+    letter-spacing: 3px;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* background-color: aqua; */
+}
+
+#nav h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#content h3{
+    font-size: 120px;
+    padding-left: 13%;
+    font-weight: 400;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#content h3:nth-child(1){
+    margin-top: 140px;
+}
+
+#content h3:nth-child(2){
+    text-align:center; 
+    padding-right: 15%;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 12%;
+    left: 40%;
+}
+
+#content h3{
+    z-index: 10;
+}
+
+#img2{
+    rotate: 20deg;
+}
+
+#img3{
+    rotate: 10deg;
+}
+
+
+
